@@ -9,7 +9,7 @@
   <li><b>[ I ] </b>nterface Segregation Principle - Princípio da Segregação de Interfaces</li>
   <li><b>[ D ] </b>ependency Inversion Principle - Princípio da Inversão de Dependência</li>
 </ul>
-<p>Nosso objetivo é facilitar o entendimento desses conceitos e mostrar como aplicá-los no dia a dia para criar sistemas mais modulares, flexíveis e fáceis de manter.</p>
+<p>O objetivo é facilitar o entendimento desses conceitos e mostrar como aplicá-los no dia a dia para criar sistemas mais modulares, flexíveis e fáceis de manter.</p>
 
 <h2> ⚙️ Como funciona </h2>
 
