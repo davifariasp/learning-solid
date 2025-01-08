@@ -6,6 +6,6 @@ A interface `DatabaseOperations` possui métodos que não são utilizados por to
 
 ## Solução
 
-Para resolvermos esse problema, começamos refatorando a classe `DatabaseOperations` e a transformando em `CRUDOperations` e criando`DBBackup` para transferirmos o método `backup`para lá. Dessa forma, as classes que necessitam de operações de CRUD implementam a interface `CRUDOperations` e as classes que necessitam de operações de conexão implementam a interface `ConnectionOperations`.
+Para resolvermos esse problema, começamos refatorando a classe `DatabaseOperations` e a transformando em `CRUDOperations` e criando`DBBackup` para transferirmos o método `backup`para lá. Dessa forma, as classes que necessitam de operações de CRUD implementam a interface `CRUDOperations` e as classes que necessitam de operações de backup implementam a interface `DBBackup`.
 
 Sendo assim, `Postgres` implementa `CRUDOperations` e `DBBackup` e `Redis` implementa apenas `CRUDOperations`.
