@@ -1,5 +1,7 @@
 # Exemplo 1
 
+Classe User gerenciando criação, banco de dados e notificações por e-mail.
+
 ## Violação
 
 Um exemplo clássico de violação ocorre quando uma classe única acumula múltiplas responsabilidades.
