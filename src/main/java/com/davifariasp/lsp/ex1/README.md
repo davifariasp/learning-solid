@@ -1,5 +1,7 @@
 # Exemplo 1
 
+Conta bancária e seus diferentes tipos e regras.
+
 ## Violação
 
 A classe `ContaBancaria` é uma classe concreta. Ao herdar dessa classe herda-se também a lógica de seus métodos, mas com a possibilidade de sobreescrevê-los.
