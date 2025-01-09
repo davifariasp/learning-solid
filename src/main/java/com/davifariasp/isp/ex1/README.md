@@ -1,5 +1,7 @@
 # Exemplo 1
 
+Bancos de dados e seus diferentes tipos de funcionalidades.
+
 ## Violação
 
 A interface `DatabaseOperations` possui métodos que não são utilizados por todas as classes que a implementam. No exemplo, a classe `Postgres` implementa todos os métodos, já a classe `Redis`, não.
