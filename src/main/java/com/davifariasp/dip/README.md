@@ -16,3 +16,7 @@ De acordo com Uncle Bob, esse princípio pode ser definido da seguinte forma:
 No contexto da programação orientada a objetos, é comum que as pessoas confundam a `Inversão de Dependência` com a `Injeção de Dependência`, porém são coisas distintas, mas que relacionam entre si com um proposito em comum, deixar o código desacoplado.
 
 > Importante: Inversão de Dependência não é igual a Injeção de Dependência, fique ciente disso! A Inversão de Dependência é um princípio (Conceito) e a Injeção de Dependência é um padrão de projeto (Design Pattern).
+
+## Exemplos
+
+- **[Exemplo 1](./ex1/)** - Envio de notificação de confirmação de pedido.
