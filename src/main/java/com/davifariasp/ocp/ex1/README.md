@@ -1,5 +1,7 @@
 # Exemplo 1
 
+Calcular descontos com base em diferentes tipos de promoções
+
 ## Violação
 
 A priori, considere o método `calcularDesconto`, na classe Desconto, que atualmente utiliza uma sequência de instruções `if-else` para verificar o tipo de desconto e aplicar o cálculo correspondente. Suponha que agora seja necessário incluir um novo tipo de desconto para promoções de Páscoa. A abordagem mais direta seria adicionar mais um bloco `if-else` para lidar com o novo cálculo. No entanto, isso viola o OCP, pois exige alterações no código original, tornando-o mais propenso a erros e menos flexível.
